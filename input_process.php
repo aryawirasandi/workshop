@@ -1,6 +1,5 @@
 <?php
 include('conn.php'); 
-include('session.php'); 
 // == fungsi input ==
 if (isset($_POST['save'])) { 
   $nama = $_POST['name']; 

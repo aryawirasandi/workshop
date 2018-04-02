@@ -1,6 +1,5 @@
 <?php
-include('conn.php'); 
-include('session.php'); 
+include('conn.php');  
 // == fungsi delete ==
 if (isset($_GET['id'])){ // ketika link delete di klik
   $id = $_GET['id'];
@@ -11,6 +10,5 @@ if (isset($_GET['id'])){ // ketika link delete di klik
   document.location ="index.php";
   </script>
   ';
-
 }
 ?>

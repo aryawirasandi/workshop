@@ -1,6 +1,5 @@
 <?php
 include('conn.php'); 
-include('session.php');
 
 	// menampilkan data untuk melakukan update
 	if (isset($_GET['id'])){

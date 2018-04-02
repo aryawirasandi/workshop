@@ -1,6 +1,3 @@
-<?php
-include('session.php'); //pemanggilan file session.php
-?>
 <!DOCTYPE html>
 <html>
 <head>

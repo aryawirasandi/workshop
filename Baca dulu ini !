@@ -1,0 +1,42 @@
+Panduan menjalankan aplikasi crud ini 
+
+Ada kendala? hubungi
+email : aryawirasandi7153@gmail.com
+line  : aryawirasandi
+WA    : 082218341631
+
+UNTUK LOCAL 
+===============
+Buka xampp
+simpan direktori workshop program ini ke direktori xampp/htdocs
+buka browser dan jalankan localhost/workshop
+
+
+UNTUK DEPLOY
+===============
+Buka webhost000 dan daftarkan akun kalian
+
+Pilih kelola web
+
+Pilih file manager
+
+Drag semua file kedalam direktori webhost000
+
+Note "jika folder Database, img dan css tidak bisa di drag" jadikan dulu sebagai rar dan drag lagi ke direktori webhost000 dan extract rar tersebut"
+
+kembali lagi ke sesi pemilihan dan pilih database
+
+buat database baru, INGAT!!! username, nama database dan password dari database yang kalian buat di webhost000 karena itu berhubungan dengan pergantian isi file conn.php
+
+buka phpmyadmin versi webhost000
+
+klik database yang sudah di buat pilih import dan masukan simple.sql klik ok
+
+kembali ke file manager dan buka conn.php pada $db
+
+mysqli_connect("localhost", "namauserdatabasewebhost000", "passworddatabasewebhost000", "namadatabasewebhost000");
+
+Kembali lagi ke sesi pemilihan fitur disanan ada link yang terintegrasi dengan file manager misal namalinknya namauser.000webhostapp.com
+
+
+

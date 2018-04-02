@@ -1,6 +1,5 @@
 <?php
 include('conn.php');
-include('session.php');
 // == fungsi update ==
 if(isset($_POST['update'])){ // ketika button update di klik
   $name = $_POST['name'];
